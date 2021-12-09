@@ -16,7 +16,7 @@ jsproxy_config({
       label: '当前站点',
       lines: {
         [location.host]: 1,
-        'proxy.galaxystudio.workers.dev': 1,
+        'proxy.galaxy-studio.ga': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
@@ -29,7 +29,7 @@ jsproxy_config({
 
         // 免费版（低权重，分摊一些成本）
         // 每个账号每天 10 万次免费请求，但有频率限制
-        'proxy.galaxystudio.workers.dev': 1,
+        'proxy.galaxy-studio.ga': 1,
       }
     }
   },
